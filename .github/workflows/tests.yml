@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -18,5 +18,7 @@ jobs:
           node-version: ${{matrix.node-version}}
       - name: yarn install
         run: yarn install
+      - name: yarn build
+        run: yarn run build
       - name: tests
         run: yarn test
