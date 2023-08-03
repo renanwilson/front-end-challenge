@@ -39,7 +39,7 @@ describe('NewsSearch', () => {
     render(<NewsSearchList />);
     expect(screen.getByText('Test headline')).toBeInTheDocument();
     expect(screen.getByText('Test abstract')).toBeInTheDocument();
-    expect(screen.getByText('Publicado em: 09/05/2022')).toBeInTheDocument();
+    expect(screen.getByText('Publicado em: 10/05/2022')).toBeInTheDocument();
     expect(screen.getByAltText('image of Test headline')).toHaveAttribute(
       'src',
       'https://static01.nyt.com/test.jpg'

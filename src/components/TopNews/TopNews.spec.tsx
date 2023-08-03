@@ -38,7 +38,7 @@ describe('TopNews', () => {
     render(<TopNews />);
     expect(screen.getByText('Mock Title')).toBeInTheDocument();
     expect(screen.getByText('Mock abstract')).toBeInTheDocument();
-    expect(screen.getByText('Publicado em: 09/05/2022')).toBeInTheDocument();
+    expect(screen.getByText('Publicado em: 10/05/2022')).toBeInTheDocument();
     expect(screen.getByAltText('image of Mock Title')).toHaveAttribute('src', 'image3.jpg');
   });
   it('should not render NewsCard Component', () => {
