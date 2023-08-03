@@ -27,7 +27,7 @@ describe('Is render Header', () => {
   });
   it('is render pubDate', () => {
     container();
-    const PUBDATE = screen.getByText('Publicado em: 09/05/2022');
+    const PUBDATE = screen.getByText('Publicado em: 10/05/2022');
     expect(PUBDATE).toBeInTheDocument();
   });
   it('is render image', () => {
