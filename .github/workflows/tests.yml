@@ -21,4 +21,4 @@ jobs:
       - name: yarn build
         run: yarn run build
       - name: tests
-        run: yarn test --watchAll
+        run: yarn test
