@@ -2,7 +2,7 @@
 
 ## 🖥️ Olhe este projeto na web
 
-- [react-news](https://react-news-vert.vercel.app/)
+- [react-news](https://react-news-lilac.vercel.app/)
 
 ## 🚀 Tecnologias
 
